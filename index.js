@@ -14,7 +14,7 @@ const songs = [
     // Feel free to add even more songs
     { title: "Boheimian Rhapsody", artist: "Queen", genre: "Rock"},
     { title: "Billie Jean", artist: "Micheal Jackson", genre: "Pop"},
-    { title: "Purple Rain", artist: "Price", genre: "Pop"},
+    { title: "Purple Rain", artist: "Prince", genre: "Pop"},
     { title: "Stairway to Heaven", artist:"Led Zeppelin", genre:"Rock"},
     { title: "Respect", artist: "Aretha Franklin", genre: "R&B"}
 ];
