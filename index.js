@@ -45,6 +45,10 @@ function generatePlaylist(guardians, songs) {
         playlistTitle.textContent = `${guardian}'s Playlist`;
 
         const songList = document.createElement('ul');
+        songList.style.listStyleType = "none";
+        songList.style.padding = "0";
+        songList.style.margin = "0";
+
         playlistSongs.forEach(song => {
             const listItem = document.createElement('li');
             listItem.innerHTML = `<span class="song-title">${song.title}</span> - ${song.artist}`;
@@ -60,3 +64,9 @@ function generatePlaylist(guardians, songs) {
 
 // Call generatePlaylist and display the playlists for each Guardian
 generatePlaylist(guardians, songs);
+
+// Access the <ul> element by its ID
+var ulElement = document.getElementById("yourUlId");
+
+// Modify its styles
+
