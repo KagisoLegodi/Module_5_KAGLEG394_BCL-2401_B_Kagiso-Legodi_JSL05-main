@@ -65,8 +65,5 @@ function generatePlaylist(guardians, songs) {
 // Call generatePlaylist and display the playlists for each Guardian
 generatePlaylist(guardians, songs);
 
-// Access the <ul> element by its ID
-var ulElement = document.getElementById("yourUlId");
 
-// Modify its styles
 
