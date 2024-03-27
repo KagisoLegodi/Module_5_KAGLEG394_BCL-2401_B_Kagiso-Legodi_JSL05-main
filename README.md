@@ -19,7 +19,7 @@ Throughout the development of this project, I gained valuable knowledge and skil
 
 During the development process, I encountered several challenges, including:
 
-1. **Removing Bullet Points**: Initially, I struggled with removing bullet points from the playlists. However, I researched and found that I could achieve this by styling the `ul` element with `list-style-type: none;` in CSS.
+1. **Removing Bullet Points**: Initially, I struggled with the default bullet points appearing in the playlists. Since I wanted to remove the bullets dynamically using JavaScript, I had to find an alternative solution.
 
 2. **Dynamic Element Creation**: Generating dynamic HTML elements for each Guardian's playlist posed a challenge. However, I overcame this by utilizing JavaScript's `createElement()` and `appendChild()` methods to create and append elements to the DOM.
 
@@ -29,7 +29,7 @@ During the development process, I encountered several challenges, including:
 
 To overcome the challenges, I implemented the following solutions:
 
-1. **CSS Styling**: I applied CSS styles to the `ul` element to remove bullet points from the playlists.
+1. **Dynamically Removing Bullet Points**: Instead of using CSS to remove the bullets, I dynamically removed them using JavaScript. After creating the <ul> element for each playlist, I accessed its style properties and set listStyleType to "none", padding to "0", and margin to "0". This ensured that the bullet points were not displayed in the playlists, providing a clean and organized layout.
 
 2. **JavaScript DOM Manipulation**: I used JavaScript to dynamically create and append HTML elements for each Guardian's playlist, allowing for dynamic content generation.
 
