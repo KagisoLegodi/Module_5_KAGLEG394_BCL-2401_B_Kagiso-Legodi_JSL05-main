@@ -51,6 +51,7 @@ function generatePlaylist(guardians, songs) {
 
         playlistSongs.forEach(song => {
             const listItem = document.createElement('li');
+            listItem.style.marginBottom = "10px"
             listItem.innerHTML = `<span class="song-title">${song.title}</span> - ${song.artist}`;
             songList.appendChild(listItem);
         });
